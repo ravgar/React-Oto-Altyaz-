@@ -1,0 +1,107 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'SF Pro Display';
+    src: url('https://fonts.cdnfonts.com/css/sf-pro-display');
+    font-weight: 400;
+  }
+}
+
+:root {
+  --apple-blue: #0071e3;
+  --apple-blue-hover: #0077ED;
+}
+
+body {
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.shadow-subtle {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+}
+
+.apple-input-label {
+  @apply block text-sm font-medium text-[#1d1d1f] mb-2;
+}
+
+.apple-file-input {
+  @apply block w-full px-4 py-3 text-sm text-[#1d1d1f] 
+    border border-[#d2d2d7] rounded-lg
+    file:mr-4 file:py-2 file:px-4
+    file:rounded-full file:border-0
+    file:text-sm file:font-medium
+    file:bg-[#0071e3] file:text-white
+    hover:file:bg-[#0077ED]
+    focus:outline-none focus:border-[#0071e3]
+    transition-colors;
+}
+
+.apple-textarea {
+  @apply block w-full h-32 px-4 py-3
+    text-sm text-[#1d1d1f] 
+    border border-[#d2d2d7] rounded-lg
+    focus:outline-none focus:border-[#0071e3]
+    resize-none transition-colors;
+}
+
+.apple-range {
+  @apply h-1 rounded-lg appearance-none cursor-pointer
+    bg-[#d2d2d7]
+    focus:outline-none focus:bg-[#0071e3];
+}
+
+.apple-range::-webkit-slider-thumb {
+  @apply appearance-none w-6 h-6 rounded-full 
+    bg-white border-2 border-[#0071e3]
+    hover:border-4 transition-all;
+}
+
+.apple-number-input {
+  @apply px-3 py-2 text-sm text-[#1d1d1f]
+    border border-[#d2d2d7] rounded-lg
+    focus:outline-none focus:border-[#0071e3]
+    transition-colors;
+}
+
+.apple-color-wrapper {
+  @apply relative mt-1 w-full h-10
+    border border-[#d2d2d7] rounded-lg
+    overflow-hidden;
+}
+
+.apple-color-input {
+  @apply absolute inset-0 w-full h-full
+    cursor-pointer border-none
+    focus:outline-none;
+}
+
+.apple-button {
+  @apply w-full px-6 py-3 rounded-full
+    text-white text-sm font-medium
+    bg-[#0071e3] hover:bg-[#0077ED]
+    disabled:bg-[#d2d2d7] disabled:cursor-not-allowed
+    transition-colors
+    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0071e3];
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[#86868b] rounded-full opacity-50 hover:opacity-70 transition-opacity;
+}
+
+::-webkit-scrollbar-corner {
+  display: none;
+}
