@@ -1,0 +1,15 @@
+{
+  "description": "Altyazı Oluşturucu",
+  "required_fields": [],
+  "required_files": [
+    "index.html",
+    "src/main.jsx",
+    "src/App.jsx",
+    "src/index.css",
+    "vite.config.js"
+  ],
+  "lang": "JavaScript",
+  "framework": "React",
+  "style": "react_altyazı",
+  "scene": "esref"
+}
