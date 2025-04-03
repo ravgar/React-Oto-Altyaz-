@@ -1,3 +1,8 @@
+![Altyazı Projesi Ekran Görüntüsü-1](https://github.com/user-attachments/assets/e66a3757-1f13-4c43-99af-f0d8b99cfdf8)
+![Altyazı Projesi Ekran Görüntüsü-2](https://github.com/user-attachments/assets/0e173dc8-fa88-4ca0-920b-1b8a10c26683)
+![Altyazı Projesi Ekran Görüntüsü-3](https://github.com/user-attachments/assets/e74257a7-0bc6-4335-b6a2-7e05f3554e0b)
+![Altyazı Projesi Ekran Görüntüsü-4](https://github.com/user-attachments/assets/3d30e758-9181-474e-a847-3d03b2626ea7)
+
 ## Key Highlights
 - 🎯 Efficient and high-speed image generation
 - ✏️ Customizable text overlays for adding subtitles
